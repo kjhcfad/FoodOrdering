@@ -1,0 +1,20 @@
+:root {
+  --jet-black: #2c363fff;
+  --blush-rose: #e75a7cff;
+  --ivory: #f2f5eaff;
+  --dust-grey: #d6dbd2ff;
+  --dry-sage: #bbc7a4ff;
+}
+
+h1 {
+  color: var(--blush-rose);
+  text-align: center;
+}
+
+.dropdown button {
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
