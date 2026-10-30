@@ -6,6 +6,28 @@
   --dry-sage: #bbc7a4ff;
 }
 
+ @font-face {
+    font-family: 'Akzidenz';
+    src: url('Akzidenz-grotesk-black.woff') format('woff');
+    font-weight: normal;
+ }
+    
+ @font-face {
+ 	font-family: 'Times Condensed';
+ 	src: url('Times New Roman MT Condensed Regular.otf') format('opentype');
+ 	font-weight: normal;
+ }
+
+  @font-face {
+ 	font-family: 'August';
+ 	src: url('August-Bold.ttf') format('opentype');
+ 	font-weight: normal;
+ }
+
+
+* {
+   font-family: 'Akzidenz', serif;
+}
 
 body {
 	margin: 20px;
@@ -21,8 +43,14 @@ main {
 h1{
 	text-align: center;
 	color: var(--blush-rose);
+	font-family: 'August';
 
 }
+
+.header h1{
+	font-family: 'Times Condensed';
+}
+
 .navbar ul{
 	list-style-type: none;
 	background-color: var(--dust-grey);
