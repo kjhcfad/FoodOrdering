@@ -8,19 +8,19 @@
 
  @font-face {
     font-family: 'Akzidenz';
-    src: url('Akzidenz-grotesk-black.woff') format('woff');
+    src: url('../fonts/Akzidenz-grotesk-black.woff') format('woff');
     font-weight: normal;
  }
     
  @font-face {
  	font-family: 'Times Condensed';
- 	src: url('Times New Roman MT Condensed Regular.otf') format('opentype');
+ 	src: url('../fonts/Times New Roman MT Condensed Regular.otf') format('opentype');
  	font-weight: normal;
  }
 
   @font-face {
  	font-family: 'August';
- 	src: url('August-Bold.ttf') format('opentype');
+ 	src: url('../fonts/August-Bold.ttf') format('opentype');
  	font-weight: normal;
  }
 
