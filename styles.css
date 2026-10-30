@@ -28,9 +28,13 @@ h1{
 	background-color: var(--dust-grey);
 	padding: 0px;
 	margin: 0px;
-	overflow: hidden;
-	
+	display: flex;
 }
+
+.navbar li.right {
+	margin-left: auto;
+}
+
 .navbar a{
 	color:var(--jet-black);
 	text-decoration: none;
@@ -38,10 +42,12 @@ h1{
 	display: block;
 	text-align: center;
 }
+
 .navbar a:hover{
 	background-color: var(--jet-black);
 	color: var(--ivory);
 }
+
 .navbar li{
 	float: left;
 }
@@ -91,7 +97,14 @@ h1{
 	color: var(--blush-rose);
 }
 
+.navbar i {
+	margin-right: 5px;
+	font-size: 16px;
+}
 
+* {
+	outline: solid 2px orange;
+}
 
 
 
