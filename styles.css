@@ -130,8 +130,11 @@ h1{
 	font-size: 16px;
 }
 
-* {
-	outline: solid 2px orange;
+.CartButton button{
+	font-size: 25px;
+				background-color: var(--dust-grey);
+				color: var(--jet-black);
+				border-radius: 25px;
 }
 
 
