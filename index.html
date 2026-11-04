@@ -20,7 +20,12 @@
 	-->
 	<body>
 
+	<div id="preloader">
+		<div class="spinner"></div>
+	</div>
+
 		<h1>Food Ordering</h1>
+
 
 		<nav Class="navbar">
 			<ul>
@@ -43,18 +48,16 @@
 				Now on Windows AND Mac!
 			</p>
 
-		<a href="https://www.google.com">
-			<button style="
-				font-size: 25px;
-				background-color: grey;
-				color: lightblue;
-				border-radius: 25px;
-				">Click me
-			</button>
-		</a>
+		<script>
+			window.addEventListener("load", function () {
+				const preloader = document.getElementById("preloader");
+				preloader.classList.add("loader-hidden");
+			});
 
-		
-		
+		</script>
+
+
 	</body>
+
 </html>
 
